@@ -80,7 +80,6 @@ DOMAIN-SUFFIX,cisco.com
 DOMAIN-SUFFIX,citrix.com
 DOMAIN-SUFFIX,clamav.net
 DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cms-twdigitalassets.com
 DOMAIN-SUFFIX,cock.li
 DOMAIN-SUFFIX,coldfilm.xyz
@@ -159,6 +158,7 @@ DOMAIN-SUFFIX,gelbooru.com
 DOMAIN-SUFFIX,geni.us
 DOMAIN-SUFFIX,genius.com
 DOMAIN-SUFFIX,germania.one
+DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,gitlab.io
 DOMAIN-SUFFIX,glpals.com
@@ -168,7 +168,9 @@ DOMAIN-SUFFIX,gofile.io
 DOMAIN-SUFFIX,golosameriki.com
 DOMAIN-SUFFIX,gonitro.com
 DOMAIN-SUFFIX,goodreads.com
+DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,gordonua.com
 DOMAIN-SUFFIX,gpsonextra.net
 DOMAIN-SUFFIX,grafana.com
@@ -553,6 +555,7 @@ DOMAIN-SUFFIX,wetransfer.com
 DOMAIN-SUFFIX,wheather.com
 DOMAIN-SUFFIX,wikiart.org
 DOMAIN-SUFFIX,wikidot.com
+DOMAIN-SUFFIX,wilsoncenter.org
 DOMAIN-SUFFIX,windguru.cz
 DOMAIN-SUFFIX,wixmp.com
 DOMAIN-SUFFIX,wonderzine.com
@@ -567,6 +570,9 @@ DOMAIN-SUFFIX,xvideos-cdn.com
 DOMAIN-SUFFIX,xvideos.com
 DOMAIN-SUFFIX,yaoilib.me
 DOMAIN-SUFFIX,yle.fi
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtubekids.com
+DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,zahav.ru
 DOMAIN-SUFFIX,zannn.top
 DOMAIN-SUFFIX,zedge.net
