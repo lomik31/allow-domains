@@ -62,11 +62,13 @@ realtimesupport.youtube.com
 studio.youtube.com
 i9.ytimg.com
 i.ytimg.com
+i.yting.com
 yt3.ggpht.com
 googlevideo.com
 www.youtube.com
 www.youtubekids.com
 googleapis.com
+youtu.be
 
 # servarr
 translate.servarr.com
@@ -293,6 +295,7 @@ oaistatic.com
 cdn.oaistatic.com
 oaiusercontent.com
 platform.openai.com
+ios.chat.openai.com
 
 # blocked in Crimea
 reactflow.dev
@@ -336,10 +339,13 @@ geolocation.onetrust.com
 # Torrent trackers
 nnmclub.to
 filmitorrent.net
+fast-torrent.club
+kinozal.guru
 
 # Media
 lostfilmtv2.site
 static.lostfilm.top
+filmix.fm
 
 # Media DB
 www.theaudiodb.com
@@ -362,7 +368,6 @@ cpu-monkey.com
 mailo.com
 pages.dev
 cock.li
-miro.com
 leafletjs.com
 
 # AI
@@ -379,16 +384,30 @@ mouser.fi
 geforcenow.com
 gfn.am
 
+# Notion
+notion.so
+www.notion.so
+exp.notion.so
+msgstore.www.notion.so
+#cdn.statically.io
+notion.com
+notion.new
+notion.site
+notion-static.com
+
 # Info
 ntc.party
 4pda.to
 habr.com
+dpidetector.org
 
 # Shops out
 www.bestbuy.com
 allegro.pl
 walmart.com
+bumble.com
 goodreads.com
+gr-assets.com
 
 # Shops in
 freedomletters.org
@@ -429,6 +448,11 @@ sfdcopens.com
 site.com
 trailblazer.me
 trailhead.com
+
+# sky.com
+sky.com
+digitalcontent.sky
+skycdp.com
 
 # Other
 saverudata.net
@@ -545,3 +569,12 @@ surveymonkey.com
 smassets.net
 f1.com
 formula1.com
+xbox.com
+sdxcentral.com
+premierleague.com
+footballapi.pulselive.coms
+ign.com
+howlongtobeast.com
+hotels.com
+plugshare.com
+volkswagen-classic-parts.com
