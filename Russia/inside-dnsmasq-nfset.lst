@@ -612,7 +612,6 @@ nftset=/vrv.co/4#inet#fw4#vpn_domains
 nftset=/vyos.io/4#inet#fw4#vpn_domains
 nftset=/walmart.com/4#inet#fw4#vpn_domains
 nftset=/watchguard.com/4#inet#fw4#vpn_domains
-nftset=/weather.com/4#inet#fw4#vpn_domains
 nftset=/weblance.com.ua/4#inet#fw4#vpn_domains
 nftset=/welt.de/4#inet#fw4#vpn_domains
 nftset=/wetransfer.com/4#inet#fw4#vpn_domains
