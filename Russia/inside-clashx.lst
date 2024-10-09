@@ -46,6 +46,7 @@ DOMAIN-SUFFIX,archiveofourown.org
 DOMAIN-SUFFIX,atlassian.com
 DOMAIN-SUFFIX,atn.ua
 DOMAIN-SUFFIX,att.com
+DOMAIN-SUFFIX,autodesk.com
 DOMAIN-SUFFIX,avira.com
 DOMAIN-SUFFIX,azathabar.com
 DOMAIN-SUFFIX,azattyq.org
@@ -169,6 +170,7 @@ DOMAIN-SUFFIX,ekhokavkaza.com
 DOMAIN-SUFFIX,elastic.co
 DOMAIN-SUFFIX,element14.com
 DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,eleventlabs.io
 DOMAIN-SUFFIX,err.ee
 DOMAIN-SUFFIX,etsy.com
 DOMAIN-SUFFIX,euronews.com
@@ -245,6 +247,7 @@ DOMAIN-SUFFIX,grani.ru
 DOMAIN-SUFFIX,graty.me
 DOMAIN-SUFFIX,graylog.org
 DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,grizzlysms.com
 DOMAIN-SUFFIX,groq.com
 DOMAIN-SUFFIX,gulagu.net
 DOMAIN-SUFFIX,habr.com
@@ -441,6 +444,7 @@ DOMAIN-SUFFIX,pandasecurity.com
 DOMAIN-SUFFIX,pap.pl
 DOMAIN-SUFFIX,paperpaper.io
 DOMAIN-SUFFIX,paperpaper.ru
+DOMAIN-SUFFIX,papervpn.io
 DOMAIN-SUFFIX,paraplan.net
 DOMAIN-SUFFIX,paraswap.io
 DOMAIN-SUFFIX,parsec.app
@@ -614,6 +618,7 @@ DOMAIN-SUFFIX,telegraf.by
 DOMAIN-SUFFIX,telegraf.news
 DOMAIN-SUFFIX,telemetr.io
 DOMAIN-SUFFIX,tellapart.com
+DOMAIN-SUFFIX,temp-mail.org
 DOMAIN-SUFFIX,terraform.io
 DOMAIN-SUFFIX,terrasoft.ua
 DOMAIN-SUFFIX,the-village.ru
@@ -652,6 +657,7 @@ DOMAIN-SUFFIX,trailhead.com
 DOMAIN-SUFFIX,trellix.com
 DOMAIN-SUFFIX,tsmc.com
 DOMAIN-SUFFIX,ttwstatic.com
+DOMAIN-SUFFIX,tunnelbear.com
 DOMAIN-SUFFIX,tutanota.com
 DOMAIN-SUFFIX,tvfreedom.io
 DOMAIN-SUFFIX,tvrain.ru
