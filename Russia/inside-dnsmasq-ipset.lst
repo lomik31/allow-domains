@@ -596,7 +596,6 @@ ipset=/solarwinds.com/vpn_domains
 ipset=/soundcloud.com/vpn_domains
 ipset=/spacelift.io/vpn_domains
 ipset=/spektr.press/vpn_domains
-ipset=/spotify.com/vpn_domains
 ipset=/spreadthesign.com/vpn_domains
 ipset=/sputnikipogrom.com/vpn_domains
 ipset=/squadbustersgame.com/vpn_domains
