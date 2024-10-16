@@ -117,7 +117,6 @@ if __name__ == '__main__':
         'google.com',
         'github.com',
         'githubusercontent.com',
-        'githubcopilot.com',
         'microsoft.com',
         'cloudflare-dns.com',
         'spotify.com',
