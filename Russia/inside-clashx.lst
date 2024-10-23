@@ -76,6 +76,7 @@ DOMAIN-SUFFIX,bosch-home.com
 DOMAIN-SUFFIX,bradyid.com
 DOMAIN-SUFFIX,brave.com
 DOMAIN-SUFFIX,brawlstarsgame.com
+DOMAIN-SUFFIX,btdig.com
 DOMAIN-SUFFIX,buanzo.org
 DOMAIN-SUFFIX,buckaroo.nl
 DOMAIN-SUFFIX,buf.build
@@ -102,12 +103,16 @@ DOMAIN-SUFFIX,clashroyaleapp.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,cloudex.cc
 DOMAIN-SUFFIX,cms-twdigitalassets.com
+DOMAIN-SUFFIX,cnd2exp.online
 DOMAIN-SUFFIX,cock.li
 DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,coinpayments.net
+DOMAIN-SUFFIX,coinsbee.com
 DOMAIN-SUFFIX,coldfilm.xyz
 DOMAIN-SUFFIX,colta.ru
 DOMAIN-SUFFIX,coursera.org
 DOMAIN-SUFFIX,cpu-monkey.com
+DOMAIN-SUFFIX,credly.com
 DOMAIN-SUFFIX,crunchyroll.com
 DOMAIN-SUFFIX,currenttime.tv
 DOMAIN-SUFFIX,cursorinfo.co.il
@@ -165,6 +170,8 @@ DOMAIN-SUFFIX,dreamhost.com
 DOMAIN-SUFFIX,dw.com
 DOMAIN-SUFFIX,e621.net
 DOMAIN-SUFFIX,echofm.online
+DOMAIN-SUFFIX,edu-cisco.org
+DOMAIN-SUFFIX,eggertspiele.de
 DOMAIN-SUFFIX,ehorussia.com
 DOMAIN-SUFFIX,ej.ru
 DOMAIN-SUFFIX,ekhokavkaza.com
@@ -262,6 +269,7 @@ DOMAIN-SUFFIX,hollisterco.com
 DOMAIN-SUFFIX,holod.media
 DOMAIN-SUFFIX,home-connect.com
 DOMAIN-SUFFIX,hostgator.com
+DOMAIN-SUFFIX,hostinger.com
 DOMAIN-SUFFIX,hotels.com
 DOMAIN-SUFFIX,hqporner.com
 DOMAIN-SUFFIX,hromadske.ua
@@ -279,6 +287,7 @@ DOMAIN-SUFFIX,iichan.hk
 DOMAIN-SUFFIX,ill.in.ua
 DOMAIN-SUFFIX,ilook.tv
 DOMAIN-SUFFIX,important-stories.com
+DOMAIN-SUFFIX,indiehackers.com
 DOMAIN-SUFFIX,infineon.com
 DOMAIN-SUFFIX,instagram.com
 DOMAIN-SUFFIX,intel.com
@@ -294,6 +303,7 @@ DOMAIN-SUFFIX,iptv.online
 DOMAIN-SUFFIX,is.fi
 DOMAIN-SUFFIX,island-of-pleasure.site
 DOMAIN-SUFFIX,istories.media
+DOMAIN-SUFFIX,itninja.com
 DOMAIN-SUFFIX,itsmycity.ru
 DOMAIN-SUFFIX,jabra.com
 DOMAIN-SUFFIX,jamf.com
@@ -399,6 +409,7 @@ DOMAIN-SUFFIX,newtimes.ru
 DOMAIN-SUFFIX,nflxext.com
 DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxvideo.net
+DOMAIN-SUFFIX,ngrok.com
 DOMAIN-SUFFIX,nih.gov
 DOMAIN-SUFFIX,nike.com
 DOMAIN-SUFFIX,nitropdf.com
@@ -524,6 +535,7 @@ DOMAIN-SUFFIX,riperam.org
 DOMAIN-SUFFIX,roar-review.com
 DOMAIN-SUFFIX,root-nation.com
 DOMAIN-SUFFIX,rsf.org
+DOMAIN-SUFFIX,ru-board.com
 DOMAIN-SUFFIX,ruckuswireless.com
 DOMAIN-SUFFIX,rule34.art
 DOMAIN-SUFFIX,rus-media.org
@@ -585,6 +597,7 @@ DOMAIN-SUFFIX,skyscanner.com
 DOMAIN-SUFFIX,slavicsac.com
 DOMAIN-SUFFIX,slideshare.net
 DOMAIN-SUFFIX,smartbear.com
+DOMAIN-SUFFIX,smartdeploy.com
 DOMAIN-SUFFIX,smashwords.com
 DOMAIN-SUFFIX,smassets.net
 DOMAIN-SUFFIX,snort.org
@@ -747,6 +760,7 @@ DOMAIN-SUFFIX,xvideos.com
 DOMAIN-SUFFIX,yaoilib.me
 DOMAIN-SUFFIX,yle.fi
 DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube-nocookie.com
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,youtubekids.com
 DOMAIN-SUFFIX,ytimg.com
