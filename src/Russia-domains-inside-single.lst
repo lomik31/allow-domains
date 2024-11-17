@@ -11,9 +11,19 @@ wide-youtube.l.google.com
 ytimg.l.google.com
 youtubei.googleapis.com
 youtubeembeddedplayer.googleapis.com
+youtube-ui.l.google.com
 
 # Microsoft
 copilot.microsoft.com
+designer.microsoft.com
+xsts.auth.xboxlive.com
 
 # Discord
 discord-attachments-uploads-prd.storage.googleapis.com 
+
+# parsec.app
+builds.parsec.app
+public.parsec.app
+
+# twiiter
+t.co

@@ -93,6 +93,8 @@ def kvas(src, out, single=None, remove={'google.com'}):
                         if not tldextract.extract(line).domain and tldextract.extract(line).suffix:
                             domains.add("*." + tldextract.extract(line.rstrip()).suffix)
 
+    domains -= {f"*{domains}" for domains in removeDomainsKvas}
+
     if single is not None:
         with open(single) as infile:
             for line in infile:
@@ -100,7 +102,6 @@ def kvas(src, out, single=None, remove={'google.com'}):
                     if re.search(r'[^а-я\-]', tldextract.extract(line).domain):
                         domains_single.add(tldextract.extract(line.rstrip()).fqdn)
 
-    domains -= {f"*{domains}" for domains in removeDomains}
     domains = domains.union(domains_single)
 
     domains = sorted(domains)
@@ -108,6 +109,37 @@ def kvas(src, out, single=None, remove={'google.com'}):
     with open(f'{out}-kvas.lst', 'w') as file:
         for name in domains:
             file.write(f'{name}\n')
+
+def mikrotik_fwd(src, out, single=None, remove={'google.com'}):
+    domains = set()
+    domains_single = set()
+
+    for f in src:
+        with open(f) as infile:
+                for line in infile:
+                    if tldextract.extract(line).suffix:
+                        if re.search(r'[^а-я\-]', tldextract.extract(line).domain):
+                            domains.add(tldextract.extract(line.rstrip()).registered_domain)
+                        if not tldextract.extract(line).domain and tldextract.extract(line).suffix:
+                            domains.add("." + tldextract.extract(line.rstrip()).suffix)
+
+    domains = domains - remove
+
+    if single is not None:
+        with open(single) as infile:
+            for line in infile:
+                if tldextract.extract(line).suffix:
+                    if re.search(r'[^а-я\-]', tldextract.extract(line).domain):
+                        domains_single.add(tldextract.extract(line.rstrip()).fqdn)
+
+    #domains = domains.union(domains_single)
+    domains = sorted(domains)
+
+    with open(f'{out}-mikrotik-fwd.lst', 'w') as file:
+        for name in domains:
+            file.write(f'/ip dns static add name={name} type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost\n')
+        for name in domains_single:
+            file.write(f'/ip dns static add name={name} type=FWD address-list=allow-domains match-subdomain=no forward-to=localhost\n')
 
 if __name__ == '__main__':
     # Russia inside
@@ -121,15 +153,18 @@ if __name__ == '__main__':
         'cloudflare-dns.com',
         'spotify.com',
         'accounts.spotify.com',
-        'open.spotify.com'
-    }
+        'open.spotify.com',
+        'parsec.app' }
+    removeDomainsKvas = {'google.com', 'github.com', 'githubusercontent.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app', 't.co' }
+
     urllib.request.urlretrieve("https://community.antifilter.download/list/domains.lst", "antifilter-domains.lst")
     inside_lists = ['antifilter-domains.lst', rusDomainsInsideSrc]
 
     raw(inside_lists, rusDomainsInsideOut)
     dnsmasq(inside_lists, rusDomainsInsideOut, rusDomainsInsideSrcSingle, removeDomains)
     clashx(inside_lists, rusDomainsInsideOut, removeDomains)
-    kvas(inside_lists, rusDomainsInsideOut, rusDomainsInsideSrcSingle, removeDomains)
+    kvas(inside_lists, rusDomainsInsideOut, rusDomainsInsideSrcSingle, removeDomainsKvas)
+    mikrotik_fwd(inside_lists, rusDomainsInsideOut, rusDomainsInsideSrcSingle, removeDomains)
 
     # Russia outside
     outside_lists = [rusDomainsOutsideSrc]
@@ -138,6 +173,7 @@ if __name__ == '__main__':
     dnsmasq(outside_lists, rusDomainsOutsideOut)
     clashx(outside_lists, rusDomainsOutsideOut)
     kvas(outside_lists, rusDomainsOutsideOut)
+    mikrotik_fwd(outside_lists, rusDomainsOutsideOut)
 
     # Ukraine
     Path("Ukraine").mkdir(parents=True, exist_ok=True)

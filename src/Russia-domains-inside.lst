@@ -361,11 +361,14 @@ geolocation.onetrust.com
 
 # Torrent trackers
 nnmclub.to
+nnmstatic.win
 filmitorrent.net
 fast-torrent.club
 kinozal.guru
 cnd2exp.online
 torrentgalaxy.to
+rutor.org
+cdnbunny.org
 
 # Media
 lostfilmtv2.site
@@ -393,6 +396,7 @@ redis.io
 veeam.com
 snyk.io
 jetbrains.com
+myjetbrains.com
 pingdom.com
 intuitibits.com
 cpu-monkey.com
@@ -408,6 +412,7 @@ smartdeploy.com
 
 # Programs
 zbigz.com
+teamviewer.com
 
 # AI
 remove.bg
@@ -547,6 +552,20 @@ discord-activities.com
 discordactivities.com 
 discordsays.com
 
+# HDrezka
+hdrezka.ag
+hdrezka.ac
+static.hdrezka.ac
+voidboost.cc
+stream.voidboost.cc
+rezka.ag
+rezka.my
+rezkify.com
+
+# Autodesk
+autodesk.com
+cdn.web-platform.io
+
 # Other
 saverudata.net
 proton.me
@@ -617,13 +636,6 @@ element14.com
 baginya.org
 linktr.ee
 lib.rus.ec
-hdrezka.ag
-hdrezka.ac
-static.hdrezka.ac
-voidboost.cc
-stream.voidboost.cc
-rezka.ag
-rezka.my
 spreadthesign.com
 daemon-tools.cc
 buf.build
@@ -725,3 +737,21 @@ btdig.com
 indiehackers.com
 ngrok.com
 forum.ru-board.com
+kinogo.uk
+liveuamap.com
+deepstatemap.live
+ukr.net
+flibusta.is
+proxy.flibusta.net
+getoutline.com
+cbilling.vip
+cbilling.eu
+baikal-journal.ru
+soundcloud.com
+linear.app
+sephora.com
+7tv.app
+7tv.io
+onlinesim.io
+guilded.gg
+pimpletv.ru
