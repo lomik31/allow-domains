@@ -592,6 +592,7 @@ ipset=/provereno.media/vpn_domains
 ipset=/prowlarr.com/vpn_domains
 ipset=/pscp.tv/vpn_domains
 ipset=/psiphon.ca/vpn_domains
+ipset=/ptc.com/vpn_domains
 ipset=/public.parsec.app/vpn_domains
 ipset=/pulselive.com/vpn_domains
 ipset=/qt.io/vpn_domains
