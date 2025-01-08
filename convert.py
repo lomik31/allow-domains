@@ -61,8 +61,9 @@ def dnsmasq(src, out, single=None, remove={'google.com'}):
         for name in domains:
             file.write(f'ipset=/{name}/vpn_domains\n')
 
-def clashx(src, out, remove={'google.com'}):
+def clashx(src, out, single=None, remove={'google.com'}):
     domains = set()
+    domains_single = set()
 
     for f in src:
         with open(f) as infile:
@@ -72,6 +73,15 @@ def clashx(src, out, remove={'google.com'}):
                             domains.add(tldextract.extract(line.rstrip()).registered_domain)
                         if not tldextract.extract(line).domain and tldextract.extract(line).suffix:
                             domains.add("." + tldextract.extract(line.rstrip()).suffix)
+
+    if single is not None:
+        with open(single) as infile:
+            for line in infile:
+                if tldextract.extract(line).suffix:
+                    if re.search(r'[^а-я\-]', tldextract.extract(line).domain):
+                        domains_single.add(tldextract.extract(line.rstrip()).fqdn)
+
+    domains = domains.union(domains_single)
 
     domains = domains - remove
     domains = sorted(domains)
@@ -147,22 +157,21 @@ if __name__ == '__main__':
 
     removeDomains = {
         'google.com',
+        'googletagmanager.com',
         'github.com',
         'githubusercontent.com',
         'microsoft.com',
         'cloudflare-dns.com',
-        'spotify.com',
-        'accounts.spotify.com',
-        'open.spotify.com',
-        'parsec.app' }
-    removeDomainsKvas = {'google.com', 'github.com', 'githubusercontent.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app', 't.co' }
+        'parsec.app'
+    }
+    removeDomainsKvas = {'google.com', 'googletagmanager.com', 'github.com', 'githubusercontent.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app', 't.co' }
 
     urllib.request.urlretrieve("https://community.antifilter.download/list/domains.lst", "antifilter-domains.lst")
     inside_lists = ['antifilter-domains.lst', rusDomainsInsideSrc]
 
     raw(inside_lists, rusDomainsInsideOut)
     dnsmasq(inside_lists, rusDomainsInsideOut, rusDomainsInsideSrcSingle, removeDomains)
-    clashx(inside_lists, rusDomainsInsideOut, removeDomains)
+    clashx(inside_lists, rusDomainsInsideOut, rusDomainsInsideSrcSingle, removeDomains)
     kvas(inside_lists, rusDomainsInsideOut, rusDomainsInsideSrcSingle, removeDomainsKvas)
     mikrotik_fwd(inside_lists, rusDomainsInsideOut, rusDomainsInsideSrcSingle, removeDomains)
 

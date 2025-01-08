@@ -29,6 +29,7 @@ scontent.xx.fbcdn.net
 cdn.fbsbx.com
 internalfb.com
 oculus.com
+meta.com
 
 # Twitter/X. From: https://github.com/v2fly/domain-list-community/blob/master/data/twitter
 ads-twitter.com
@@ -276,6 +277,7 @@ vpnpay.io
 papervpn.io
 tunnelbear.com
 protonvpn.com
+surfshark.com
 
 # Hashicorp
 hashicorp.com
@@ -349,6 +351,7 @@ webnames.ca
 intel.com
 www.intel.com
 intel.de
+intel.nl
 apis.intel.com
 ainu.intel.com
 consumer.intel.com
@@ -374,7 +377,10 @@ cdnbunny.org
 lostfilmtv2.site
 static.lostfilm.top
 filmix.fm
+filmix.day
+filmix.la
 api.service-kp.com
+kinopub.me
 
 # Media DB
 www.theaudiodb.com
@@ -409,10 +415,16 @@ codeium.com
 edu-cisco.org
 itninja.com
 smartdeploy.com
+docs.liquibase.com
+cucumber.io
+mongodb.com
 
 # Programs
 zbigz.com
 teamviewer.com
+notepad-plus-plus.org
+app.flourish.studio
+flourish.studio
 
 # AI
 remove.bg
@@ -454,6 +466,7 @@ walmart.com
 bumble.com
 goodreads.com
 gr-assets.com
+alza.hu
 
 # Shops in
 freedomletters.org
@@ -467,10 +480,12 @@ reddxxx.com
 redgifs.com
 xv-ru.com
 pornhub.com
+phncdn.com
 playboy.com
 multporn.net
 rule34.art
 hentai-foundry.com
+nhentai.com
 
 # Anime + dorama
 bato.to
@@ -486,6 +501,23 @@ mangahub.ru
 shikimori.me
 mangadex.org
 e621.net
+jut.su
+animego.org
+amedia.site
+yummyani.me
+kara.su
+animeteatr.tv
+animebest.org
+animedia.tv
+shikimori.org
+animespirit.ru
+big-anime.ru
+sovetromantica.com
+animevost.in
+adultmult.tv
+yandere.tv
+jut.su
+jut-su.net
 
 # Salesforce
 salesforce.com
@@ -546,7 +578,7 @@ discord.store
 discord.tools 
 discordapp.com 
 discordapp.net 
-discordmerch.com 
+discordmerch.com
 discordpartygames.com 
 discord-activities.com 
 discordactivities.com 
@@ -565,6 +597,14 @@ rezkify.com
 # Autodesk
 autodesk.com
 cdn.web-platform.io
+
+# Heroku
+assets.heroku.com
+herokucdn.com
+
+# Amazon
+gaming.amazon.com
+primevideo.com
 
 # Other
 saverudata.net
@@ -677,7 +717,6 @@ surveymonkey.com
 smassets.net
 f1.com
 formula1.com
-xbox.com
 sdxcentral.com
 premierleague.com
 footballapi.pulselive.com
@@ -756,3 +795,61 @@ onlinesim.io
 guilded.gg
 pimpletv.ru
 envato.com
+pimpletv.ru
+shop.gameloft.com
+chaturbate.com
+f95-zone.to
+megapeer.vip
+piratbit.top
+proton.me
+ukrtelcdn.net
+render-state.to
+zerolab.net
+webtoons.com
+aol.com
+extremetech.com
+as6723.net
+novaline.fm
+trueblackmetalradio.com
+ukr.radio
+more.fm
+polymarket.com
+nfl.com
+api.nfl.com
+5sim.net
+mixcloud.com
+turbobit.net
+returnyoutubedislikeapi.com
+nippon.com
+knowyourmeme.com
+kmail-lists.com
+libgen.li
+pravda.com
+iedb.org
+clarity.ms
+neo4j.com
+sora.com
+coingate.com
+rentry.co
+tuta.com
+tuta.io
+global.fncstatic.com
+static.foxnews.com
+obozrevatel.com
+cvedetails.com
+ldoceonline.com
+broncosportforum.com
+lightning.ai/
+temu.com
+timberland.de
+nhl.com
+framer.com
+windows10spotlight.com
+rublacklist.net
+squareup.com
+mashable.com
+research.net
+htmhell.dev
+liga.net
+clickup.com
+metal-archives.com
