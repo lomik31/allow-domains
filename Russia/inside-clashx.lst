@@ -31,7 +31,6 @@ DOMAIN-SUFFIX,amazfitwatchfaces.com
 DOMAIN-SUFFIX,amdm.ru
 DOMAIN-SUFFIX,amedia.site
 DOMAIN-SUFFIX,amnezia.org
-DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,amx.com
 DOMAIN-SUFFIX,analog.com
 DOMAIN-SUFFIX,anidub.com
@@ -85,7 +84,6 @@ DOMAIN-SUFFIX,botnadzor.org
 DOMAIN-SUFFIX,brawlstarsgame.com
 DOMAIN-SUFFIX,broadcom.com
 DOMAIN-SUFFIX,broncosportforum.com
-DOMAIN-SUFFIX,bsh-group.com
 DOMAIN-SUFFIX,btdig.com
 DOMAIN-SUFFIX,btod.com
 DOMAIN-SUFFIX,buanzo.org
@@ -137,8 +135,8 @@ DOMAIN-SUFFIX,coursera.org
 DOMAIN-SUFFIX,cpu-monkey.com
 DOMAIN-SUFFIX,credly.com
 DOMAIN-SUFFIX,crunchyroll.com
+DOMAIN-SUFFIX,csskor.ill.in.ua
 DOMAIN-SUFFIX,cub.red
-DOMAIN-SUFFIX,cucumber.io
 DOMAIN-SUFFIX,currenttime.tv
 DOMAIN-SUFFIX,cursorinfo.co.il
 DOMAIN-SUFFIX,cvedetails.com
@@ -202,10 +200,7 @@ DOMAIN-SUFFIX,ej.ru
 DOMAIN-SUFFIX,ekhokavkaza.com
 DOMAIN-SUFFIX,element14.com
 DOMAIN-SUFFIX,elevenlabs.io
-DOMAIN-SUFFIX,eleventlabs.io
-DOMAIN-SUFFIX,envato.com
-DOMAIN-SUFFIX,err.ee
-DOMAIN-SUFFIX,etsy.com
+DOMAIN-SUFFIX,epidemz.net.co
 DOMAIN-SUFFIX,euronews.com
 DOMAIN-SUFFIX,euroradio.fm
 DOMAIN-SUFFIX,eutrp.eu
@@ -229,7 +224,6 @@ DOMAIN-SUFFIX,filmix.biz
 DOMAIN-SUFFIX,filmix.day
 DOMAIN-SUFFIX,filmix.fm
 DOMAIN-SUFFIX,filmix.la
-DOMAIN-SUFFIX,flashscore.com
 DOMAIN-SUFFIX,flibusta.is
 DOMAIN-SUFFIX,flibusta.net
 DOMAIN-SUFFIX,flipboard.com
@@ -268,9 +262,8 @@ DOMAIN-SUFFIX,getoutline.com
 DOMAIN-SUFFIX,getoutline.org
 DOMAIN-SUFFIX,gfn.am
 DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,githubcopilot.com
-DOMAIN-SUFFIX,gitlab.com
-DOMAIN-SUFFIX,gitlab.io
+DOMAIN-SUFFIX,ghostrc.game.idtech.services
+DOMAIN-SUFFIX,global.fncstatic.com
 DOMAIN-SUFFIX,glpals.com
 DOMAIN-SUFFIX,godaddy.com
 DOMAIN-SUFFIX,gofile.io
@@ -285,8 +278,6 @@ DOMAIN-SUFFIX,grafana.com
 DOMAIN-SUFFIX,grani.ru
 DOMAIN-SUFFIX,graty.me
 DOMAIN-SUFFIX,graylog.org
-DOMAIN-SUFFIX,grazie.ai
-DOMAIN-SUFFIX,grizzlysms.com
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,groq.com
 DOMAIN-SUFFIX,groupon.com
@@ -308,7 +299,6 @@ DOMAIN-SUFFIX,hetzner.com
 DOMAIN-SUFFIX,hollisterco.com
 DOMAIN-SUFFIX,holod.media
 DOMAIN-SUFFIX,home-connect.com
-DOMAIN-SUFFIX,honeywell.com
 DOMAIN-SUFFIX,hostgator.com
 DOMAIN-SUFFIX,hostinger.com
 DOMAIN-SUFFIX,hotels.com
@@ -435,7 +425,7 @@ DOMAIN-SUFFIX,navalny.com
 DOMAIN-SUFFIX,nba.com
 DOMAIN-SUFFIX,neformat.com.ua
 DOMAIN-SUFFIX,neo4j.com
-DOMAIN-SUFFIX,netapp.com
+DOMAIN-SUFFIX,netflix.ca
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,netflix.net
 DOMAIN-SUFFIX,netflixinvestor.com
@@ -494,7 +484,6 @@ DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openmedia.io
 DOMAIN-SUFFIX,opensea.io
 DOMAIN-SUFFIX,opposition-news.com
-DOMAIN-SUFFIX,orbit-games.com
 DOMAIN-SUFFIX,ovd.info
 DOMAIN-SUFFIX,ovd.legal
 DOMAIN-SUFFIX,ovd.news
@@ -504,9 +493,6 @@ DOMAIN-SUFFIX,pages.dev
 DOMAIN-SUFFIX,pap.pl
 DOMAIN-SUFFIX,paperpaper.io
 DOMAIN-SUFFIX,paperpaper.ru
-DOMAIN-SUFFIX,papervpn.io
-DOMAIN-SUFFIX,paraplan.net
-DOMAIN-SUFFIX,paraswap.io
 DOMAIN-SUFFIX,patreon.com
 DOMAIN-SUFFIX,patriot.dp.ua
 DOMAIN-SUFFIX,pcgamesn.com
@@ -548,7 +534,6 @@ DOMAIN-SUFFIX,provereno.media
 DOMAIN-SUFFIX,prowlarr.com
 DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,psiphon.ca
-DOMAIN-SUFFIX,ptc.com
 DOMAIN-SUFFIX,public.parsec.app
 DOMAIN-SUFFIX,qt.io
 DOMAIN-SUFFIX,quickconnect.to
@@ -637,9 +622,6 @@ DOMAIN-SUFFIX,slavicsac.com
 DOMAIN-SUFFIX,smartbear.co
 DOMAIN-SUFFIX,smartbear.com
 DOMAIN-SUFFIX,smartdeploy.com
-DOMAIN-SUFFIX,smashwords.com
-DOMAIN-SUFFIX,smassets.net
-DOMAIN-SUFFIX,snapmagic.com
 DOMAIN-SUFFIX,snort.org
 DOMAIN-SUFFIX,snyk.io
 DOMAIN-SUFFIX,sobesednik.com
@@ -686,7 +668,7 @@ DOMAIN-SUFFIX,telegraf.news
 DOMAIN-SUFFIX,telegraph.co.uk
 DOMAIN-SUFFIX,telemetr.io
 DOMAIN-SUFFIX,tellapart.com
-DOMAIN-SUFFIX,temp-mail.org
+DOMAIN-SUFFIX,tempmail.plus
 DOMAIN-SUFFIX,temu.com
 DOMAIN-SUFFIX,terraform.io
 DOMAIN-SUFFIX,the-village.ru
@@ -723,7 +705,6 @@ DOMAIN-SUFFIX,trellix.com
 DOMAIN-SUFFIX,trueblackmetalradio.com
 DOMAIN-SUFFIX,tsmc.com
 DOMAIN-SUFFIX,ttwstatic.com
-DOMAIN-SUFFIX,tunnelbear.com
 DOMAIN-SUFFIX,turbobit.net
 DOMAIN-SUFFIX,tuta.com
 DOMAIN-SUFFIX,tuta.io
@@ -792,7 +773,7 @@ DOMAIN-SUFFIX,wilsoncenter.org
 DOMAIN-SUFFIX,windows10spotlight.com
 DOMAIN-SUFFIX,wonderzine.com
 DOMAIN-SUFFIX,wpengine.com
-DOMAIN-SUFFIX,wunderground.com
+DOMAIN-SUFFIX,www3.corsair.com
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,xhamster.com
