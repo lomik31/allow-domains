@@ -20,6 +20,7 @@ DiscordSubnets = 'Subnets/IPv4/discord.lst'
 MetaSubnets = 'Subnets/IPv4/meta.lst'
 TwitterSubnets = 'Subnets/IPv4/twitter.lst'
 TelegramSubnets = 'Subnets/IPv4/telegram.lst'
+ExcludeServices = {"telegram.lst"}
 
 def raw(src, out):
     domains = set()
@@ -29,8 +30,8 @@ def raw(src, out):
         for dir_path in src:
             path = Path(dir_path)
             if path.is_dir():
-                files.extend(path.glob('*'))
-            elif path.is_file():
+                files.extend(f for f in path.glob('*') if f.name not in ExcludeServices)
+            elif path.is_file() and path.name not in ExcludeServices:
                 files.append(path)
 
     for f in files:
@@ -58,8 +59,8 @@ def dnsmasq(src, out, remove={'google.com'}):
         for dir_path in src:
             path = Path(dir_path)
             if path.is_dir():
-                files.extend(path.glob('*'))
-            elif path.is_file():
+                files.extend(f for f in path.glob('*') if f.name not in ExcludeServices)
+            elif path.is_file() and path.name not in ExcludeServices:
                 files.append(path)
 
     for f in files:
@@ -92,8 +93,8 @@ def clashx(src, out, remove={'google.com'}):
         for dir_path in src:
             path = Path(dir_path)
             if path.is_dir():
-                files.extend(path.glob('*'))
-            elif path.is_file():
+                files.extend(f for f in path.glob('*') if f.name not in ExcludeServices)
+            elif path.is_file() and path.name not in ExcludeServices:
                 files.append(path)
 
     for f in files:
@@ -121,8 +122,8 @@ def kvas(src, out, remove={'google.com'}):
         for dir_path in src:
             path = Path(dir_path)
             if path.is_dir():
-                files.extend(path.glob('*'))
-            elif path.is_file():
+                files.extend(f for f in path.glob('*') if f.name not in ExcludeServices)
+            elif path.is_file() and path.name not in ExcludeServices:
                 files.append(path)
 
     for f in files:
@@ -150,8 +151,8 @@ def mikrotik_fwd(src, out, remove={'google.com'}):
         for dir_path in src:
             path = Path(dir_path)
             if path.is_dir():
-                files.extend(path.glob('*'))
-            elif path.is_file():
+                files.extend(f for f in path.glob('*') if f.name not in ExcludeServices)
+            elif path.is_file() and path.name not in ExcludeServices:
                 files.append(path)
 
     for f in files:
@@ -168,7 +169,11 @@ def mikrotik_fwd(src, out, remove={'google.com'}):
 
     with open(f'{out}-mikrotik-fwd.lst', 'w') as file:
         for name in domains:
-            file.write(f'/ip dns static add name={name} type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost\n')
+            if name.startswith('.'):
+                file.write(f'/ip dns static add name=*.{name[1:]} type=FWD address-list=allow-domains forward-to=localhost\n')
+            else:
+                file.write(f'/ip dns static add name={name} type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost\n')
+
 def domains_from_file(filepath):
     domains = []
     try:
@@ -403,7 +408,8 @@ if __name__ == '__main__':
         'cloudflare-dns.com',
         'parsec.app'
     }
-    removeDomainsKvas = {'google.com', 'googletagmanager.com', 'github.com', 'githubusercontent.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app', 't.co', 'ua' }
+    removeDomainsMikrotik = {'google.com', 'googletagmanager.com', 'github.com', 'githubusercontent.com', 'githubcopilot.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app', 'showip.net' }
+    removeDomainsKvas = {'google.com', 'googletagmanager.com', 'github.com', 'githubusercontent.com', 'githubcopilot.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app', 't.co', 'ua' }
 
     inside_lists = [rusDomainsInsideCategories, rusDomainsInsideServices]
 
@@ -411,7 +417,7 @@ if __name__ == '__main__':
     dnsmasq(inside_lists, rusDomainsInsideOut, removeDomains)
     clashx(inside_lists, rusDomainsInsideOut, removeDomains)
     kvas(inside_lists, rusDomainsInsideOut, removeDomainsKvas)
-    mikrotik_fwd(inside_lists, rusDomainsInsideOut, removeDomains)
+    mikrotik_fwd(inside_lists, rusDomainsInsideOut, removeDomainsMikrotik)
 
     # Russia outside
     outside_lists = [rusDomainsOutsideSrc]
@@ -451,12 +457,11 @@ if __name__ == '__main__':
     directories = ['Categories', 'Services']
     generate_srs_for_categories(directories)
 
-    # Sing-box subnets
-    generate_srs_subnets(TelegramSubnets)
-
+    # Sing-box subnets + domains
     generate_srs_combined(DiscordSubnets, "Services/discord.lst")
     generate_srs_combined(TwitterSubnets, "Services/twitter.lst")
     generate_srs_combined(MetaSubnets, "Services/meta.lst")
+    generate_srs_combined(TelegramSubnets, "Services/telegram.lst")
 
     # Xray domains
     prepare_dat_domains(directories, 'russia-inside')
